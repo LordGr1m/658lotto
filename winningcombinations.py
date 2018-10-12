@@ -14,5 +14,7 @@ class lottery(object):
         return generateNumbers
 
 winningCombinations = lottery()
-print("Possible winning combination for Ultra Mega Draw: ", lottery.sixFiftyEight())
+counter = range(int(sys.argv[1]))
+for count in counter:
+    print("Possible winning combination for Ultra Mega Draw: ", lottery.sixFiftyEight())
 
